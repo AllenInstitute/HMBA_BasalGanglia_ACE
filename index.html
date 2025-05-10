@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring HMBA Basal Ganglia with ACE</title>
+	<style>
+        body {
+            font-family: Verdana; /* You can change this to a specific font like Arial, Verdana, etc. */
+            color: #003057; 
+        }
+        h1, h2 {
+            color: #003057; 
+        }
+		.video-container { /* Add a container for the video */
+            width: 100%; /* Make the container take the full width of its parent */
+            max-width: 1000px; /* Optional: Set a maximum width for the video */
+            margin-bottom: 20px; /* Add some space below each video */
+        }
+        video {
+            display: block; /* Prevent extra space below the video */
+            max-width: 100%; /* Make the video width responsive */
+            height: auto; /* Maintain the video's aspect ratio */
+        }
+	</style>
+</head>
+<body>
+
+    <h1>How to apply ACE to the HMBA basal ganglia consensus taxonomy</h1>
+	
+	<p>Annotation Comparison Explorer (ACE) is an R Shiny and <a href="https://sea-ad.shinyapps.io/ACEapp/">web-based</a> tool for comparison of annotations such as (i) cell type assignments, (ii) donor metadata (e.g., donor, sex, age), and (iii) cell metadata (e.g., anatomic location, QC metrics). Two primary use cases are (1) comparing user-defined clustering results and mapping results (e.g., after running <a href="https://portal.brain-map.org/atlases-and-data/bkp/mapmycells">MapMyCells</a>) for the same set of cells and (2) comparing cell type names between different taxonomies on <a href="https://portal.brain-map.org/cell-types">Allen Brain Map</a>. Additionally, ACE includes a data set comparing cell type names and associated abudance changes between multiple published studies of Alzheimer's disease in dorsolateral prefrontal cortex (see visualizations far below).</p>
+	
+	<h1> <b> <a href="https://sea-ad.shinyapps.io/ACEapp/">CLICK HERE TO ACCESS ACE!</a> </b> </h1>
+		
+	<p><b><a href="https://github.com/AllenInstitute/ACE/blob/main/ACE_User_Guide.pdf">User Guide</a> | <a href="https://www.youtube.com/watch?v=csxRkTgP50k">Webinar</a> | <a href="https://doi.org/10.1101/2025.02.11.637559">Pre-print</a> | <a href="https://github.com/AllenInstitute/ACE/">GitHub repo</a></b></p>
+	
+	<br>
+	
+	<hr>
+	
+	<h1> ACE Use Case Videos </h1>
+	
+	<p>The remainder of this page includes five short how-to videos describing how to find the HMBA Basal Ganglia taxonomy on ACE and what to do once you've found it for common use cases.</p>
+
+    <section>
+        <h2>Data Access</h2>
+        <p>This video describes how to access the BG taxonomy on ACE.</p>
+		<div class="video-container">
+        <video controls>
+            <source src="videos/ACE_small_1_Access_data_set.mp4" type="video/mp4">
+        </video>
+		</div>
+    </section>
+
+    <hr>
+	
+	<section>
+        <h2>Filter data</h2>
+		<p>This video describes how to filter data to only include a subset of cells.</p>
+		<div class="video-container">
+        <video controls>
+            <source src="videos/ACE_small_2_Filter_data_set.mp4" type="video/mp4">
+        </video>
+		</div>
+    </section>
+	
+	<hr>
+	
+	<section>
+        <h2>Comparing Annotations</h2>
+		<p>This video describes how to compare pairs of annotations using an interactive confusion matrix.</p>
+		<div class="video-container">
+        <video controls>
+            <source src="videos/ACE_small_3_CompareAnnotations.mp4" type="video/mp4">
+        </video>
+		</div>
+    </section>
+	
+	<hr>
+	
+	<section>
+        <h2>Explore an individual annotation</h2>
+		<p>This video describes how to how cells mapping to a single BG group align to the adult human and adult mouse brain atlases (and other metadata).</p>
+		<div class="video-container">
+        <video controls>
+            <source src="videos/ACE_small_4_IndividualAnnotation.mp4" type="video/mp4">
+        </video>
+		</div>
+    </section>
+	
+	<hr>
+	
+	<section>
+        <h2>Other features</h2>
+		<p>This video briefly describes other features of ACE, including scatter plots, river plots, and image download.</p>
+		<div class="video-container">
+        <video controls>
+            <source src="videos/ACE_small_5_OtherFeatures.mp4" type="video/mp4">
+        </video>
+		</div>
+    </section>
+
+</body>
+</html>
